@@ -7,33 +7,32 @@ export default function Home() {
 
   return (
     <section className="page page-home">
-      <span className="eyebrow">IDAF Natural Sciences &amp; English — Chemistry finals revision</span>
+      <span className="eyebrow">IDAF Natural Sciences &amp; English</span>
 
       <div className="start-hero">
         <h1>The Reaction Quiz</h1>
         <p>
-          A short revision quiz covering the chemistry topics from this term. Answer each
-          question — if you pick a wrong option, a short video explains why it's wrong before
-          you move on.
+          Revise the chemistry topics from this term. Get a question wrong and you'll
+          watch a short video explaining the mistake before you carry on.
         </p>
       </div>
 
       <div className="rules">
         <div className="rule-card">
           <p>
-            <strong>{questionCount} questions</strong> across the {QUIZ_DATA.blocks.length}{' '}
-            topic blocks below, one at a time.
+            <strong>{questionCount} questions</strong> across {QUIZ_DATA.blocks.length}{' '}
+            topic blocks, one at a time.
           </p>
         </div>
         <div className="rule-card">
-          <p>Wrong answer → a short video on that exact mistake, then you continue.</p>
+          <p>Wrong answer? You'll get a short video on that exact mistake, then continue.</p>
         </div>
         <div className="rule-card">
-          <p>Your score and a personalised tip are shown at the end.</p>
+          <p>See your score and a tip for what to revise next.</p>
         </div>
         <div className="rule-card">
           <p>
-            Sources for every fact are listed on the <Link to="/sources">Sources</Link> page.
+            All sources are listed on the <Link to="/sources">Sources</Link> page.
           </p>
         </div>
       </div>
